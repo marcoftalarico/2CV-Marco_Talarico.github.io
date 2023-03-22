@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Trabajo Final</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">  
+    <link rel="shortcut icon" href="icon/icon.png" /> 
+
+</head>
+
+<body>
+    <header>
+        <audio id="audioTestElement" src="audio/presentacion.mp3" autobuffer></audio>
+        <div onmouseover="audioTestElement.play()">
+            <img class="foto-perfil" src="img/perfil.png" alt="FOTO DE PERFIL">
+        </div>
+            
+            <h2 class="nombrecv">Bobby Baker</h2>
+        <nav>
+            <ul>
+                <li class="current"><a href="index.html" class="menu">Inicio</a></li>
+                <li><a href="sobre-mi.html" class="menu">Sobre mi</a></li>
+                <li><a href="contacto.html" class="menu">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+     
+    
+    <section>
+        <h3 class="titulos">Datos personales</h3>
+             <div class="datos"> 
+            
+             <div>
+                <ul>
+                    <li class="datos">Fecha de Nacimiento:
+                        <span class="datos">09/07/1957</span>
+                    </li>
+                    <li class="datos">Telefono:
+                        <span class="datos">(011) 6983-6585</span>
+                        <a href="https://wa.me/5491167936585?text=Hola!! me interesa tu perfil profesional, podemos hablar un rato?" target="_blank"><img src="icon/tel.png" alt="whatsapp" class="chat"></a>
+                    </li>
+                    <li class="datos">E-mail:
+                        <span class="datos">estudiocontable.mft@gmail.com</span>
+                    </li>
+                    <li class="datos">Direccion:
+                        <span class="datos">Moreno 173 - Ramos Mejia</span>
+                        <a onclick="window.open('https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3282.500687137923!2d-58.5649853851939!3d-34.64205626703375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1679443084057!5m2!1ses-419!2sar', 'popup', 'left=390, top=200, width=500, height=335, toolbar=0')"><img src="icon/maps.png" alt="Maps" class="chat"></a>
+                    </li>        
+                </ul>
+            </div>
+            </div>
+    </section>
+    
+              <!--   Tarjetas-->
+    <div class="title-cards">
+        <h3 class="titulos">Informacion</h3>
+    </div>
+
+    <div class="container-card">
+
+    <div class="card">
+    <figure>
+        <img src="img/estudio.jpg">
+    <div class="contenido-card">
+        <h3>Estudios</h3>
+            <h4>10/2012 - 07/2016</h4>
+                <span class="datos1">Graduado en la escuela secundaria en el Colegio "Republica Oriental del Uruguay Nº43", con orientacion en Ciencias Economicas.</span>
+                    <hr class="division">
+            
+            <h4>02/2017 - 12/2019</h4>
+            <a class="link" onclick="window.open('http://www.youtube.com/v/lUCmqI98-M8&autoplay=1', 'popup', 'left=390, top=200, width=500, height=335, toolbar=0')"> UNLaM </a>
+                <span class="datos1">Graduado en la "Universidad Nacional de La Matanza", en la carrera de Contador Publico Nacional.</span>
+                    <hr class="division">
+            
+            <h4>02/2021 - 10/2021</h4>
+            <a class="link" onclick="window.open('http://www.youtube.com/v/lUCmqI98-M8&autoplay=1', 'popup', 'left=390, top=200, width=500, height=335, toolbar=0')"> UNLaM </a>
+                <span class="datos1">Doctorado en "Derecho Tributario y Derecho Penal Tributario" en la "Universidad Nacional de La Matanza".</span>     
+        
+    </div>
+    </div>
+    
+    <div class="card">
+    <figure>
+        <img src="img/trabajo2.jpg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Experiencia laboral</h3>
+        
+            <h4>11/2013 - 07/2015</h4><span class="datos1">Analista contable Jr. en Estudio Contable MFT</span><p>Realizacion de tareas de control de facturacion y DDJJ en general.</p>
+                <hr class="division">
+            <h4>08/2015 - Actualidad</h4><span class="datos1">Analista contable Sr. en Estudio Contable MFT</span><p>Encargado de Area Impositiva y Auditoria de grandes contribuyentes ubicado en zona oeste.</p>
+                <hr class="division">
+            <h4>01/2019 - Actualidad</h4><span class="datos1">Auditor externo en Estudio Contable MFT.</span><p>Realizacion de informes trimestrales destinados a la toma de decisiones en cuestiones financieras.</p>     
+        
+    </div>
+    </div>
+    
+    <div class="card">
+    <figure>
+        <img src="img/banderas.jfif">
+    </figure>
+    <div class="contenido-card">
+        <h3>Idiomas</h3>
+        
+            <h4>Ingles</h4>
+                <span class="datos1">Nivel escrito:</span>
+                    <progress id="file" max="100" value="70"> 70% </progress>
+                <span class="datos1">Nivel oral:</span>
+                    <progress id="file" max="100" value="50"> 50% </progress>
+                        <hr class="division">
+            
+            <h4>Italiano</h4>
+                <span class="datos1">Nivel escrito:</span>
+                    <progress id="file" max="100" value="85"> 85% </progress>
+                <span class="datos1">Nivel oral:</span>
+                    <progress id="file" max="100" value="70"> 70% </progress>
+        
+    </div>
+    </div>
+    </div>
+
+    <hr>
+
+    <!--pie de pagina con redes sociales-->
+    <footer>
+        
+        <nav>
+            <a href="https://www.facebook.com/estudiocontable.mft?mibextid=ZbWKwL" target="_blank"><img src="icon/facebook.png" alt="Facebook" class="red-social"></a>
+            <a href="https://instagram.com/estudiocontable.mft?igshid=YmMyMTA2M2Y=" target="_blank"><img src="icon/instagram.png" alt="Instagram" class="red-social"></a>
+            <a href="https://wa.me/5491167936585" target="_blank"><img src="icon/whatsapp.png" alt="whatsapp" class="red-social"></a>
+        </nav>
+        
+    </footer>
+</body>
+</html>

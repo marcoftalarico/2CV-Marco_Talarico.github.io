@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">  
+    <link rel="shortcut icon" href="icon/icono.avif" />  
+    
+</head>
+
+<body>
+    <header>
+        <img class="foto-perfil" src="img/perfil.png" alt="FOTO DE PERFIL">
+        <h2 class="nombrecv">Bobby Baker</h2>
+        <nav><!--menu para transitar las hojas del CV-->
+            <ul>
+                <li><a href="index.html" class="menu">Inicio</a></li>
+                <li class="current"><a href="sobre-mi.html" class="menu">Sobre mi</a></li>
+                <li><a href="contacto.html" class="menu">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--   Cards-->
+<div class="title-cards">
+    <h3 class="titulos">Mas sobre mi perfil profesional</h3>
+</div>
+<div class="container-card">
+
+<div class="card">
+<figure>
+    <img src="img/trabajo1.jpg">
+<div class="contenido-card">
+    <h3>Actualidad</h3>
+        <p>En la actualidad, me encuentro trabajando en mi propio estudio contable, y realizando trabajos freelance acorde a mi disponibilidad. Además, de realizar pericias contables para el Consejo Profesional de Ciencias Económicas de la Provincia de Buenos Aires.</p>
+            <audio id="audioprueba1" src="audio/audio1.mp3" autobuffer></audio>
+                <a>
+                    <div onclick="audioprueba1.play()">
+                        <img class="speak" src="icon/speak.png">
+                    </div>
+                </a>
+</div>
+</div>
+
+<div class="card">
+<figure>
+    <img src="img/trabajo3.jpg">
+</figure>
+<div class="contenido-card">
+    <h3>Informatica</h3>
+        <p>Me encuentro realizando varios cursos en HTML, CSS y JavaScript. Por el momento, mis conocimientos son de nivel inicial, pero estoy mejorando dia a dia.</p>
+            <audio id="audioprueba2" src="audio/audio2.mp3" autobuffer></audio>
+                <a>
+                    <div onclick="audioprueba2.play()">
+                        <img class="speak" src="icon/speak.png">
+                    </div>
+                </a>
+</div>
+</div>
+
+<div class="card">
+<figure>
+    <img src="img/trabajo4.png">
+</figure>
+<div class="contenido-card">
+    <h3>Informacion adicional</h3>
+        <p>Cuento con autonomía para trasladarme y realizar trabajos en las empresas, tanto de forma presencial como de forma remota.</p>
+            <audio id="audioprueba3" src="audio/audio3.mp3" autobuffer></audio>
+                <a>
+                    <div onclick="audioprueba3.play()">
+                        <img class="speak" src="icon/speak.png">
+                    </div>
+                </a>
+</div>
+</div>
+</div>
+
+<hr>
+    
+    <!--pie de pagina con redes sociales-->
+    <footer>
+        <nav>
+            <a href="https://www.facebook.com/estudiocontable.mft?mibextid=ZbWKwL" target="_blank"><img src="icon/facebook.png" alt="Facebook" class="red-social"></a>
+            <a href="https://instagram.com/estudiocontable.mft?igshid=YmMyMTA2M2Y=" target="_blank"><img src="icon/instagram.png" alt="Instagram" class="red-social"></a>
+            <a href="https://wa.me/5491167936585" target="_blank"><img src="icon/whatsapp.png" alt="whatsapp" class="red-social"></a>
+        </nav>
+    </footer>
+</body>
+</html>
